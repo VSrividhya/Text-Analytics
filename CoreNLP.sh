@@ -1,0 +1,1 @@
+~/jre1.8.0_151/bin/java -cp stanford-corenlp-3.8.0.jar:stanford-corenlp-3.8.0-models.jar:xom.jar:joda-time.jar:jollyday.jar -Xmx3g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner -file input.txt -outputFormat text
